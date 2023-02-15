@@ -6,12 +6,15 @@ const Navigation = () => {
   return (
     <>
       <div className='navigation'>
-        <Link classname='logo-container' to='/'>
+        <Link className='logo-container' to='/'>
           <CrwnLogo className='logo' />
         </Link>
-        <div className='nav-link-container'>
-          <Link classname='nav-link' to='/shop'>
+        <div className='nav-links-container'>
+          <Link className='nav-link' to='/shop'>
             SHOP
+          </Link>
+          <Link className='nav-link' to='/sign-in'>
+            SIGN IN
           </Link>
         </div>
       </div>
